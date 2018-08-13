@@ -1,0 +1,119 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header-background{
+	background-color: black;
+	padding: 0px;
+	margin: 0px;
+}
+.content{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+.logo{
+	float:left;
+	margin-top:16px;
+}
+.menu{
+	float: left;
+}
+.menu li{
+	list-style: none;
+	float:left;
+	padding: 0px 10px;
+	line-height: 50px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+.container{
+	margin-top: 20px;
+}
+.container-on{
+
+}
+.container-on .img{
+	border-radius: 7px;
+	float: left;
+	width: 66.66%;
+}
+.container-on .img img{
+	width: 100%;
+}
+.container-on .detail{
+	float: left;
+	width: 33.33%;
+}
+h1{
+	font-size: 30px;
+}
+.contact{
+	width: 120px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 7px;
+	text-align: center;	
+}
+.contact a{
+	line-height: 50px;
+	text-decoration: none;
+	color:white;
+}
+.contact:hover{
+	border-radius: 7px;
+	background-color:red;
+}
+.detail .inner{
+	margin-left: 20px;
+}
+.contact p{
+	color:white;
+	line-height: 50px;
+	text-align: center;
+	padding: 3px;
+}
+.container-under{
+	margin-top: 50px;
+	border-top:1px solid #CCCCCC;
+}
+.quote {
+	width: 100%;
+	background-color: #EEEEEE;
+}
+.quote p{
+	text-align: center;
+	line-height: 50px;
+	height: 100%;
+}
+.row{
+	margin:0 -15px;
+}
+.inner{
+	padding: 0 15px;
+}
+.item{
+	width: 33.33%;
+	float:left;
+}
+h3	{
+	font-size: 20px;
+}
+.item-contact{
+	background-color: white;
+	height: 30px;
+	width: 80px;
+	border: 1px solid black;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 28px;
+	padding: 3px;
+}
+.item-contact a{
+	text-decoration: none;
+	color:black;
+}

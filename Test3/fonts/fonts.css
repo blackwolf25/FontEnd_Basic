@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Rubik';
+  src: url("Rubik-Light.eot");
+  src: url("Rubik-Light.eot?#iefix") format("embedded-opentype"), url("Rubik-Light.woff") format("woff"), url("Rubik-Light.ttf") format("truetype"), url("Rubik-Light.svg#Rubik-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Dosis';
+  src: url("Dosis-Light.eot");
+  src: url("Dosis-Light.eot?#iefix") format("embedded-opentype"), url("Dosis-Light.woff") format("woff"), url("Dosis-Light.ttf") format("truetype"), url("Dosis-Light.svg#Dosis-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("Rubik-Black.eot");
+  src: url("Rubik-Black.eot?#iefix") format("embedded-opentype"), url("Rubik-Black.woff") format("woff"), url("Rubik-Black.ttf") format("truetype"), url("Rubik-Black.svg#Rubik-Black") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("Rubik-Bold.eot");
+  src: url("Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("Rubik-Bold.woff") format("woff"), url("Rubik-Bold.ttf") format("truetype"), url("Rubik-Bold.svg#Rubik-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Dosis';
+  src: url("Dosis-SemiBold.eot");
+  src: url("Dosis-SemiBold.eot?#iefix") format("embedded-opentype"), url("Dosis-SemiBold.woff") format("woff"), url("Dosis-SemiBold.ttf") format("truetype"), url("Dosis-SemiBold.svg#Dosis-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("Rubik-Medium.eot");
+  src: url("Rubik-Medium.eot?#iefix") format("embedded-opentype"), url("Rubik-Medium.woff") format("woff"), url("Rubik-Medium.ttf") format("truetype"), url("Rubik-Medium.svg#Rubik-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Dosis';
+  src: url("Dosis-Regular.eot");
+  src: url("Dosis-Regular.eot?#iefix") format("embedded-opentype"), url("Dosis-Regular.woff") format("woff"), url("Dosis-Regular.ttf") format("truetype"), url("Dosis-Regular.svg#Dosis-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Rubik';
+  src: url("Rubik-Regular.eot");
+  src: url("Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("Rubik-Regular.woff") format("woff"), url("Rubik-Regular.ttf") format("truetype"), url("Rubik-Regular.svg#Rubik-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Dosis';
+  src: url("Dosis-Bold.eot");
+  src: url("Dosis-Bold.eot?#iefix") format("embedded-opentype"), url("Dosis-Bold.woff") format("woff"), url("Dosis-Bold.ttf") format("truetype"), url("Dosis-Bold.svg#Dosis-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Domine';
+  src: url("Domine-Bold.eot");
+  src: url("Domine-Bold.eot?#iefix") format("embedded-opentype"), url("Domine-Bold.woff") format("woff"), url("Domine-Bold.ttf") format("truetype"), url("Domine-Bold.svg#Domine-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Dosis';
+  src: url("Dosis-Medium.eot");
+  src: url("Dosis-Medium.eot?#iefix") format("embedded-opentype"), url("Dosis-Medium.woff") format("woff"), url("Dosis-Medium.ttf") format("truetype"), url("Dosis-Medium.svg#Dosis-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Domine';
+  src: url("Domine-Regular.eot");
+  src: url("Domine-Regular.eot?#iefix") format("embedded-opentype"), url("Domine-Regular.woff") format("woff"), url("Domine-Regular.ttf") format("truetype"), url("Domine-Regular.svg#Domine-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal; }

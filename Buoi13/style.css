@@ -1,0 +1,528 @@
+/* ==============================================================
+
+Project:	xxx - Creative Coming Soon Template
+Info:		https://themeforest.net/item/xxx
+Version:	1.0
+Author:		3F-Team
+Profile:	https://themeforest.net/user/3ftheme
+
+-----------------------------------------------------------------
+					*** TABLE OF CONTENTS ***
+-----------------------------------------------------------------
+
+	1.	General
+	2.	xxx
+	3.	xxx
+	4.	xxx
+	5.	xxx
+	6.	xxx
+	7.	xxx
+	8.	xxx
+	8.	xxx
+	9.  xxx
+	10.	xxx
+	11.	xxx
+	12.	xxx
+		
+=============================================================*/
+/*********************
+    - 1. General -
+*********************/
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-inline {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.list-inline li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1170px;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clearf, .clearfix {
+  clear: both;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.col-6 {
+  float: left;
+  width: 50%;
+}
+
+.col-4 {
+  float: left;
+  width: 33.33%;
+}
+
+.col-3 {
+  float: left;
+  width: 25%;
+}
+
+.header-top i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.header-top i, span {
+  color: white;
+}
+
+.header-top .phone, .email {
+  padding: 15px 10px;
+}
+
+.header-top {
+  background-color: #333333;
+}
+
+.login {
+  position: relative;
+}
+
+.login:after {
+  content: "|";
+  color: white;
+  position: absolute;
+  right: -2px;
+}
+
+.login:before {
+  content: "|";
+  color: white;
+  position: absolute;
+  left: -3px;
+}
+
+.search, .cart, .login, .register {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+.header-bot {
+  padding: 15px 30px;
+}
+
+.header-bot .logo {
+  width: 25%;
+}
+
+.logo .img > img {
+  width: 100%;
+}
+
+.menu {
+  width: 75%;
+  padding: 13px 0;
+}
+
+.menu ul {
+  background-color: #FF3366;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 15px 20px;
+  color: white;
+}
+
+.menu ul li:last-child {
+  padding-right: 50px;
+}
+
+.text-head {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.text-head .line {
+  padding: 10px 0;
+}
+
+.text-head h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+.text-head i {
+  color: black;
+}
+
+.fa-chevron-left {
+  padding: 0 5px 0 10px;
+}
+
+.fa-chevron-right {
+  padding: 0 10px 0 5px;
+}
+
+.service-item .col-4 .inner {
+  text-align: center;
+  padding-top: 200px;
+  position: relative;
+}
+
+.row {
+  margin: 0 -15px;
+}
+
+.inner {
+  padding: 0 15px;
+}
+
+.circle {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.item-content {
+  padding: 150px 20px 50px 20px;
+  background-color: #EEEEEE;
+}
+
+.item-content h3 {
+  color: red;
+}
+
+.item-content p {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.service-bot .row {
+  margin: 0 -15px;
+}
+
+.service-bot .inner {
+  padding: 0 15px;
+}
+
+.left, .right {
+  width: 50%;
+  float: left;
+}
+
+.col-6 .img img {
+  width: 100%;
+}
+
+.inner > .row {
+  margin: 0 -8px;
+}
+
+.left > .inner {
+  padding: 0 8px;
+}
+
+.right > .inner {
+  padding: 0 8px;
+}
+
+.service-bot {
+  padding-top: 50px;
+}
+
+.cmt {
+  text-align: right;
+  display: inline-block;
+}
+
+.about span {
+  color: black;
+}
+
+.info {
+  padding: 15px;
+}
+
+.info h3 {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.info p {
+  padding: 10px 0;
+}
+
+.info p:last-child {
+  padding-bottom: 10px 0;
+}
+
+.about {
+  padding-top: 10px;
+}
+
+.about > span {
+  font-weight: bold;
+  border-bottom: 1px solid red;
+}
+
+.main-new-bot {
+  padding-top: 50px;
+}
+
+.main-new-bot > .img {
+  width: 100%;
+}
+
+.main-video .inner {
+  text-align: center;
+}
+
+.main-video .inner > .img {
+  position: relative;
+}
+
+.ytb {
+  width: 50px;
+  height: 50px;
+  z-index: 10;
+  position: absolute;
+  top: 42%;
+  left: 42%;
+}
+
+.ytb img {
+  width: 100%;
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.col-3 .inner > .img {
+  position: relative;
+  display: inline-block;
+}
+
+.col-3 .inner {
+  text-align: center;
+}
+
+.tron-to {
+  display: inline-block;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  bottom: -10%;
+  left: 39%;
+}
+
+.col-3 .title {
+  padding-top: 50px;
+}
+
+.title {
+  text-align: center;
+  margin: 0 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.tron-to > i {
+  font-size: 20px;
+  color: white;
+  padding-top: 15px;
+}
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.contact h4 {
+  padding-bottom: 15px;
+}
+
+.contact p {
+  padding: 5px 0;
+}
+
+footer {
+  background-color: #CC0066;
+}
+
+.footer-top {
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+.footer-top p > span:first-child {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.footer-top p {
+  padding: 5px 0;
+}
+
+.footer-bot p {
+  color: white;
+  padding: 10px 0;
+}
+
+.header-wap {
+  position: fixed;
+  width: 100%;
+}
+
+.header-bot {
+  z-index: 99999;
+  background-color: white;
+}
+
+.login {
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .logo .img {
+    padding-right: 20px;
+  }
+
+  .menu {
+    padding: 6px 0;
+  }
+
+  .menu ul li {
+    padding: 15px 10px;
+  }
+
+  .menu ul li:last-child {
+    padding-right: 10px;
+  }
+
+  .main-video-bot {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .circle {
+    left: 19%;
+  }
+
+  .main-video-bot {
+    padding-top: 20px;
+  }
+}
+
+.menu-icon {
+  display: none;
+  float: right;
+}
+
+.menu-icon i {
+  font-size: 40px;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header-left {
+    width: 50%;
+  }
+
+  .header-right {
+    width: 50%;
+    padding: 25px 0;
+  }
+
+  .header-bot {
+    padding: 8px 30px;
+  }
+
+  .menu {
+    right: 0;
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    float: right;
+  }
+
+  .menu {
+    position: absolute;
+    width: 200px;
+    padding-left: 20px;
+    top: 58px;
+    right: 0;
+  }
+
+  .menu ul li {
+    display: block;
+    padding-left: 20px;
+  }
+
+  .header-bot {
+    position: relative;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    top: 26%;
+    left: 30%;
+  }
+
+  .tron-to {
+    left: 33%;
+  }
+}

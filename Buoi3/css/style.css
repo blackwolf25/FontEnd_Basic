@@ -1,0 +1,300 @@
+body,html{
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+}
+.clearf{
+	clear: both;
+}
+.content{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+header{
+	/*position: fixed;*/
+	width: 100%;
+}
+.text-trang{
+	color: white;
+}
+.text-tim{
+	color:#B372C4;
+}
+.text-xam{
+	color:#CCCCCC;
+}
+.bg-tim{
+	background-color: #B372C4;
+}
+.bg-den{
+	background-color: #333333;
+}
+.header-top-wrap{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	z-index: 5;
+}
+.header-bot-wrap{
+}
+.header-left{
+	float: left;
+}
+.header-left a{
+	line-height: 80px;
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+	font-size: 20px;
+	font-family: 'Arial';
+}
+.header-right{
+	float: right;
+}
+.header-right ul{
+	margin: 0px;
+}
+.header-right ul li{
+	display: inline-block;
+	padding: 31px 0px;
+}
+.header-right ul li:hover{
+	background-color: #0066FF;
+}
+.header-right ul li a{
+	text-decoration: none;
+	color: #DDDDDD;
+	padding: 0 20px;
+	font-family: 'Arial';
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.header-right ul li a:hover{
+	color: #FFFFFF;
+}
+
+.main-background-top{
+	background-color: #333333;
+}
+.col{
+	width: 50%;
+	float: left;
+}
+.title-top span{
+	display: inline-block;
+	color:white;
+	margin:20px 0px;
+	padding: 20px;
+	background-color: #222222;
+	margin-top: 20%;
+	font-size: 40px;
+	border-radius: 5px;
+}
+.description p{
+	color: #EEEEEE;
+	font-size: 18px;
+}
+.contact p{
+	border-radius: 5px;
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	padding: 15px 20px;
+	background-color: #B372C4;
+}
+.quote p{
+	color:#BBBBBB;
+}
+.col img{
+	margin-top: 15%;
+	float: right;
+	width: 80%;
+}
+.main-header{
+	margin:50px 0;
+	text-align: center;
+}
+.main-header span{
+	font-weight: bold;
+}
+.main-header .title{
+	font-size: 40px;
+}
+.main-header .detail{
+	font-size: 18px;
+}
+.main-header .footer{
+	margin-top: 30px;
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+.main-header .footer>i{
+	font-size: 30px;
+    position: absolute;
+    padding: 5px 15px;
+    top: -20px;
+    background-color: white;
+}
+.h-100{
+	height: 100px;
+}
+.row{
+	padding: 50px 0;
+}
+.col-5{
+	width: 50%;
+	float:left;
+}
+.col-3{
+	width: 33.33%;
+	float:left;
+	text-align: center;
+}
+.col-6{
+	width: 66.66%;
+	float:left;
+}
+.col-3 i{
+	background-image: url('../images/quote_shape.gif');
+	background-size: 100% auto;
+	line-height: 100px;
+	font-size: 35px;
+	width: 100px;
+	height: 120px;
+	color: #777777;
+}
+.col-6 .title{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.col-6 .description{
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+.main-content-quote {
+	text-align: center;
+}
+.main-content-quote .container{
+	padding: 30px 0;
+}
+.main-content-quote p{
+	margin-bottom: 30px;
+}
+.main-content-quote .title{
+	font-size: 35px;
+}
+.main-content-quote .description{
+	font-size: 18px;
+}
+.cont{
+	margin:50px 0;
+	text-align: center;
+}
+.main-header span{
+	font-weight: bold;
+}
+.main-header .title{
+	font-size: 40px;
+}
+.main-header .detail{
+	font-size: 18px;
+}
+.main-header .footer{
+	margin-top: 30px;
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+.main-header .footer>i{
+	font-size: 30px;
+    position: absolute;
+    padding: 5px 15px;
+    top: -20px;
+    background-color: white;
+}
+.content-bottom .img{
+	float:left;
+	width: 20%;
+	text-align: center;
+}
+.content-bottom .img img{
+	width: 80%;
+}
+.content-bottom .detail{
+	float: left;
+	width: 80%;
+}
+.content-bottom .title{
+	font-size: 30px;
+}
+.bottom-description{
+	font-size: 18px;
+	color: #BBBBBB;
+}
+.content-row-2{
+	margin-top: 100px;
+}
+.content-bottom-2 .img{
+	float:left;
+	width: 37%;
+	text-align: center;
+}
+.content-bottom-2 .img img{
+	width: 90%;
+}
+.content-bottom-2 .title{
+	font-size: 30px;
+}
+.content-bottom-2 .detail{
+	float: left;
+	width: 63%;
+}
+.main-footer{
+	height: 160px;
+}
+.main-footer h1{
+	float: left;
+	line-height: 94px;
+	font-size: 30px;
+	width: 50%;
+}
+.main-footer-contact{
+	float: right;
+}
+.main-footer-contact{
+	margin-top: 47px;
+	height: 60px;
+	width: 140px;
+	background-color: #663366;
+	text-align: center;
+	border-radius: 5px;
+}
+.main-footer-contact p{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer-wrap{
+	height: 100px;
+}
+.footer-wrap p{
+	float: left;
+	margin: 0px;
+	line-height: 100px;
+	font-size: 18px;
+}
+.icon{
+	float: right;
+}
+.icon i{
+	padding: 0 5px;
+	font-size: 30px;
+	line-height: 100px;
+}
+.btn-up{
+	font-size: 20px;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    bottom: 14px;
+    right: 21px;
+}

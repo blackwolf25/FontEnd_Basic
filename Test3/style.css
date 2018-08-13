@@ -1,0 +1,567 @@
+/* ==============================================================
+
+Project:	xxx - Creative Coming Soon Template
+Info:		https://themeforest.net/item/xxx
+Version:	1.0
+Author:		3F-Team
+Profile:	https://themeforest.net/user/3ftheme
+
+-----------------------------------------------------------------
+					*** TABLE OF CONTENTS ***
+-----------------------------------------------------------------
+
+	1.	General
+	2.	xxx
+	3.	xxx
+	4.	xxx
+	5.	xxx
+	6.	xxx
+	7.	xxx
+	8.	xxx
+	8.	xxx
+	9.  xxx
+	10.	xxx
+	11.	xxx
+	12.	xxx
+		
+=============================================================*/
+/*********************
+    - 1. General -
+*********************/
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-inline {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.list-inline li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, p {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  border: none;
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 1170px;
+}
+
+.fleft {
+  float: left;
+}
+
+.fright {
+  float: right;
+}
+
+.clear-fix, .clearfix, .clearf {
+  clear: both;
+}
+
+.col4 {
+  width: 33.33%;
+  float: left;
+}
+
+.col8 {
+  width: 66.66%;
+  float: left;
+}
+
+.col6 {
+  width: 50%;
+  float: left;
+}
+
+.header-wrap {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-wrap .logo p {
+  font-family: 'Domine';
+  font-size: 34px;
+  padding: 32px 0;
+}
+
+.header-wrap .menu {
+  padding: 0 40px;
+}
+
+.header-wrap .menu li {
+  display: inline-block;
+  padding: 39px 20px;
+}
+
+.header-wrap .menu a {
+  font-size: 19px;
+  font-family: 'Dosis';
+}
+
+.header-wrap .menu a:hover {
+  color: #ff4658;
+}
+
+.header-wrap .input {
+  position: relative;
+  padding: 29px 0;
+}
+
+.header-wrap input {
+  padding: 15px 26px;
+  border: none;
+  outline: none;
+  width: 268px;
+}
+
+.header-wrap input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.header-wrap input:-moz-placeholder {
+  font-size: 18px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.header-wrap input::-moz-placeholder {
+  font-size: 18px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.header-wrap input:-ms-input-placeholder {
+  font-size: 18px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.header-wrap input::-ms-input-placeholder {
+  font-size: 18px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.header-wrap input::placeholder {
+  font-size: 18px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.header-wrap .icon-search {
+  position: absolute;
+  top: 29px;
+  right: 0;
+  background-color: #ff4658;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+
+.header-wrap i {
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  line-height: 45px;
+}
+
+section {
+  background-color: #f1f1f1;
+  padding: 103px 0;
+}
+
+.content {
+  background-color: white;
+  padding: 90px;
+}
+
+.content h3 {
+  font-size: 20px;
+  font-family: 'Dosis';
+}
+
+.content .img {
+  padding: 22px 0;
+}
+
+.detail .list {
+  width: 50%;
+  float: left;
+}
+
+.detail .title p {
+  font-size: 17px;
+  font-family: 'Rubik';
+  padding: 20px 0;
+}
+
+.detail input::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.detail input:-moz-placeholder {
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.detail input::-moz-placeholder {
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.detail input:-ms-input-placeholder {
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.detail input::-ms-input-placeholder {
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.detail input::placeholder {
+  font-size: 16px;
+  color: #a7a7a7;
+  font-weight: 400;
+}
+
+.detail input {
+  background-color: #f0f0f0;
+  outline: none;
+  border: none;
+  padding: 20px;
+  width: 250px;
+}
+
+.detail textarea {
+  width: 91%;
+  height: 160px;
+  resize: none;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.detail a {
+  background-color: #68a442;
+  font-family: 'Dosis';
+  font-size: 19px;
+  color: white;
+  padding: 15px 30px;
+  margin-top: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.mxh {
+  padding: 60px 0;
+}
+
+.mxh .icon {
+  float: left;
+  padding: 20px;
+}
+
+.mxh i {
+  color: white;
+  font-size: 16px;
+}
+
+.mxh span {
+  font-size: 15px;
+  font-family: 'Dosis';
+  font-weight: 600;
+  color: white;
+  padding: 20px;
+  display: inline-block;
+}
+
+.mxh .fb {
+  background-color: #4c70ba;
+  margin-bottom: 10px;
+}
+
+.mxh .gg {
+  background-color: #46c1fa;
+  margin-bottom: 10px;
+}
+
+.mxh .tw {
+  background-color: #e04048;
+}
+
+.contact .icon {
+  padding: 10px;
+}
+
+.contact .icon i {
+  font-size: 30px;
+  color: #ff4658;
+}
+
+.contact .text {
+  padding: 10px 10px;
+}
+
+.contact h3 {
+  font-family: "Domine";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.contact p {
+  font-size: 17px;
+  color: #586466;
+}
+
+.contact .row {
+  padding: 50px;
+  background-color: white;
+}
+
+.contact input:placeholder {
+  font-size: 17px;
+  font-family: 'Rubik';
+}
+
+.contact input {
+  padding: 22px 36px;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  width: 350px;
+}
+
+.contact span {
+  padding: 20px;
+  font-size: 19px;
+  color: white;
+  background-color: #ff4658;
+}
+
+.footer-wrap {
+  background-color: #0b132d;
+}
+
+.footer-wrap .container {
+  padding: 42px 0;
+}
+
+.footer-wrap h3 {
+  font-size: 30px;
+  color: white;
+  font-family: 'Domine';
+  font-weight: 400;
+}
+
+.footer-wrap p {
+  font-size: 17px;
+  color: #a0a3ad;
+  padding-top: 30px;
+  line-height: 1.8;
+}
+
+.footer-wrap .footer-top {
+  padding: 100px 0;
+}
+
+.footer-wrap .list-left, .footer-wrap .list-right {
+  padding-top: 30px;
+}
+
+.footer-wrap .list-left {
+  padding-right: 130px;
+}
+
+.footer-wrap li {
+  padding: 7px 0;
+}
+
+.footer-wrap li a {
+  font-size: 17px;
+  color: #a0a3ad;
+}
+
+.footer-wrap .col4:nth-child(2) .inner {
+  padding-left: 160px;
+}
+
+.footer-wrap i {
+  font-size: 26px;
+  color: #ff4658;
+  padding: 19px 27px;
+  display: inline-block;
+  background-color: #121b37;
+}
+
+.footer-wrap i:hover {
+  background-color: white;
+}
+
+.footer-wrap .icon {
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-wrap .icon.fleft:nth-child(4) {
+  clear: left;
+}
+
+.footer-wrap .col4:nth-child(3) .inner h3 {
+  padding-left: 170px;
+}
+
+.footer-wrap .list-icon {
+  padding-top: 30px;
+}
+
+.footer-bot {
+  border-top: 1px solid rgba(0, 1, 0, 0.2);
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .header-wrap .menu {
+    padding: 0;
+  }
+
+  .header-wrap .menu li {
+    padding: 39px 9px;
+  }
+
+  section .content {
+    padding: 90px 20px;
+  }
+
+  .contact input {
+    width: 200px;
+  }
+
+  .footer-wrap .container {
+    padding: 42px 20px;
+  }
+
+  .footer-wrap .list-left {
+    padding-right: 75px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header-wrap .menu {
+    padding: 0 40px;
+  }
+
+  .header-wrap .menu li {
+    padding: 39px 20px;
+  }
+
+  .detail input {
+    width: 215px;
+  }
+
+  .contact h3 {
+    font-size: 21px;
+  }
+
+  .contact p {
+    font-size: 14px;
+  }
+
+  .footer-wrap .col4:nth-child(2) .inner {
+    padding-left: 103px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-wrap .menu {
+    padding: 0 39px;
+  }
+
+  .header-wrap .menu li {
+    padding: 39px 10px;
+  }
+
+  .col8 {
+    width: 100%;
+  }
+
+  .col4 {
+    width: 100%;
+  }
+
+  .fb, .gg, .tw {
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .col6 {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .footer-wrap .col4:nth-child(2) .inner {
+    padding-left: 0;
+  }
+
+  .footer-wrap .col4:nth-child(3) .inner h3 {
+    padding-left: 0;
+  }
+
+  .footer-wrap .list-icon {
+    padding-top: 30px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header-wrap .menu li {
+    padding: 39px 7px;
+  }
+
+  .header-wrap .menu {
+    padding: 0 10px;
+  }
+
+  .header-wrap .logo p {
+    font-size: 26px;
+    padding: 38px 0;
+  }
+}

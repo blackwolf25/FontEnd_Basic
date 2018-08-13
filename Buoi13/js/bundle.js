@@ -1,0 +1,1 @@
+jQuery(document).ready(function(n){var i;n(".menu-icon").click(function(){n(".menu").animate({width:"toggle"}),i=n(window).scrollTop()}),n(window).scroll(function(){n(window).width()<768&&(n(window).scrollTop()!=i&&n(".menu").hide("slow"))}),n(window).resize(function(){n(window).width()>768?n(".menu").slideDown():n(".menu").slideUp(0)})});

@@ -1,0 +1,1 @@
+jQuery(document).ready(function(o){o(".owl-carousel").owlCarousel({loop:!0,margin:10,nav:!0,responsive:{0:{items:1},600:{items:3},1000:{items:1}}}),o(".country").click(function(){o(".list-icon").toggle()})});
